@@ -173,7 +173,13 @@
         liczba = wartosc
         Return True
     End Function
+    Private Sub wpiszDoListy(ByVal dane As List(Of Double), ByRef list As ListBox)
+        For Each x As Double In dane
+            list.Items.Add("Napięcie to " & x)
+        Next
+    End Sub
     Private Sub FunkcjaDoTegoObwodu()
+        ListBox1.Items.Clear()
         Dim V, f, R2, C, L, R1 As Double
         R1 = 100
         Dim opory As New List(Of Double)
@@ -201,9 +207,17 @@
             End If
             opory.Add(1 / (2 * Math.PI * f * C))
         End If
-
+        If Not (CheckBox1.Checked Or CheckBox2.Checked Or CheckBox3.Checked) Then
+            MessageBox.Show("Obwód nie jest zamknięty, prąd nie płynie")
+            Return
+        End If
         Dim Rz As Double = OporPolaczeniaSzeregowego(100, OporPolaczeniaRownoleglego(opory))
         ListBox1.Items.Add("Napięcie na oporze R1 wynosi" & NapiecieNaGalezi(100, PradWGalezi(Rz, V)))
         przecietnyWykres(Zmiana(0, R2, 0.1))
+        wpiszDoListy(Zmiana(0, R2, 0.1), ListBox1)
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
