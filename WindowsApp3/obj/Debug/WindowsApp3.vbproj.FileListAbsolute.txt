@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.exe.config
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.exe
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.pdb
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.xml
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.vbproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.exe
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.xml
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.pdb
+C:\Users\Admin\Desktop\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.vbprojResolveAssemblyReference.cache
